@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Simple Student Portal</string>
+    <string name="title_study">Study</string>
+    <string name="title_course">Courses</string>
+    <string name="title_information">Personal</string>
+    <string name="title_study_result">Studied Courses and Results</string>
+    <string name="title_courses">All Courses</string>
+    <string name="title_PI">Personal Information</string>
+    <string name="title_gpa">GPA</string>
+    <string name="title_gpac">GPA Calculator</string>
+    <string name="prompt_email">Student ID (18047377)</string>
+    <string name="prompt_password">Password (123456)</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome ! "</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

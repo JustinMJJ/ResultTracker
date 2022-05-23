@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ResultTracker.ui.gpa.GpaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E8F0F6">
+
+                <EditText
+                    android:id="@+id/tgpa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:hint="Enter your target GPA"
+                    android:inputType="number|textPersonName"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tsc"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="336dp"
+                    android:gravity="center"
+                    android:text="Studied Courses:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/scs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:inputType="date|textPersonName"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/remained"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="408dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/ttgpa"
+                    android:layout_width="116dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="23dp"
+                    android:gravity="center"
+                    android:text="Target GPA:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tscs"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="256dp"
+                    android:gravity="center"
+                    android:text="Total Courses:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tgoal"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="183dp"
+                    android:gravity="center"
+                    android:text="Goal Difference:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/cgpa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="94dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:inputType="none|textPersonName"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/sc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="330dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:inputType="date|textPersonName"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tsu"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="493dp"
+                    android:gravity="center"
+                    android:text="Solution:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tcgpa"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="101dp"
+                    android:gravity="center"
+                    android:text="Current GPA:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/trcs"
+                    android:layout_width="168dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="416dp"
+                    android:gravity="center"
+                    android:text="Remained:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/diff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="175dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <MultiAutoCompleteTextView
+                    android:id="@+id/su"
+                    android:layout_width="213dp"
+                    android:layout_height="245dp"
+                    android:layout_marginTop="486dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

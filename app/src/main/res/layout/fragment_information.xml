@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ResultTracker.ui.information.InformationFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8F0F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/sid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:inputType="number|textPersonName"
+                    android:text="ID"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="488dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:inputType="text"
+                    android:text="Major"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tenter_date"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="337dp"
+                    android:gravity="center"
+                    android:text="Enrolled Date:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/sdob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:inputType="date|number|textPersonName"
+                    android:text="DOB"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/facilty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="408dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:inputType="text"
+                    android:text="Facility"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tsid"
+                    android:layout_width="93dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginLeft="44dp"
+                    android:layout_marginTop="23dp"
+                    android:gravity="center"
+                    android:text="Student ID:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tsdob"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="257dp"
+                    android:gravity="center"
+                    android:text="Date of Birth:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tsgender"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="37dp"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginTop="182dp"
+                    android:gravity="center"
+                    android:text="Gender:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/sname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="94dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginRight="40dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:inputType="none|textPersonName"
+                    android:text="Name"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/enter_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="330dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:inputType="date|number|textPersonName"
+                    android:text="Enroll Date"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tmajor"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="51dp"
+                    android:layout_marginLeft="51dp"
+                    android:layout_marginTop="495dp"
+                    android:gravity="center"
+                    android:text="Major:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tsname"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="101dp"
+                    android:gravity="center"
+                    android:text="Student Name:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tfacilty"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="43dp"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="415dp"
+                    android:gravity="center"
+                    android:text="Facility:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/sgender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="175dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:inputType="text"
+                    android:text="Gender"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tdegree"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="46dp"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="574dp"
+                    android:gravity="center"
+                    android:text="Degree:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/degree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="566dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tphone"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="653dp"
+                    android:gravity="center"
+                    android:text="Mobile:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="646dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:inputType="number"
+                    android:text="Mobile"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/temail"
+                    android:layout_width="137dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="52dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="733dp"
+                    android:gravity="center"
+                    android:text="Email:"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="726dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:inputType="text"
+                    android:text="Email"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

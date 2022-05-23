@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_study"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_study" />
+
+    <item
+        android:id="@+id/navigation_course"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_course" />
+
+    <item
+        android:id="@+id/navigation_gpa"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="@string/title_gpa" />
+
+    <item
+        android:id="@+id/navigation_information"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/title_information" />
+</menu>
